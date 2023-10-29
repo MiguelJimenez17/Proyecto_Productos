@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url('/assets/pexels-mitchell-luo-3694708.jpg');
+}
+
+/* Estilos navbar */
+
+#navbar {
+  border: 1px solid red;
+}
+
+#menu {
+  width: 500px;
+}
+
+#items-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#items-menu li {
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-left: 5px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#items-menu li:hover{
+  background: #D5DBDB;
+}
+
+/* estilos contenido */
+
+#contenido{
+  border: 1px solid red;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
