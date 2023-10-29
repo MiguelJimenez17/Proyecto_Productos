@@ -3,15 +3,11 @@
   margin: 0;
 }
 
-body{
-  background-image: url('/assets/pexels-mitchell-luo-3694708.jpg');
+body {
+  background-image: url("/assets/pexels-mitchell-luo-3694708.jpg");
 }
 
 /* Estilos navbar */
-
-#navbar {
-  border: 1px solid red;
-}
 
 #menu {
   width: 500px;
@@ -34,13 +30,13 @@ body{
   cursor: pointer;
 }
 
-#items-menu li:hover{
-  background: #D5DBDB;
+#items-menu li:hover {
+  background: #d5dbdb;
 }
 
 /* estilos contenido */
 
-#contenido{
+#contenido {
   border: 1px solid red;
   margin-top: 10px;
   display: flex;
