@@ -41,132 +41,40 @@
       </div>
     </nav>
   </header>
-  <main class="stage-cards">
-    <article class="card">
-      <div class="card__img">
-        <img src="assets/img/card__example__eddie.jpg" alt="">
+  <main class="container-fluid" id="contenido">
+    <div class="row">
+      <div id="container-data" class="col-md-8">
+        
       </div>
-      <div class="card__content">
-
-        <header class="card__title">
-          <h1>
-            Carro Deportivo
-          </h1>
-          <div class="card__precio">
-            50.000.000$
+      <div id="container-form" class="col-md-3">
+        <form action="" class="card" >
+          <h2 id="title-form">Agregar nuevo producto</h2>
+          <div class="card-body" id="form-product">
+            <div class="form-group">
+              <input type="file" name="imagen" class="form-control" id="image_pro">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="nombre del producto" class="form-control" id="nombre_pro">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Precio" class="form-control" id="precio_pro">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="descripcion" class="form-control" id="descripcion_pro">
+            </div>
+            <div id="btn-save">
+              <button type="submit" class="btn btn-success" id="btn" onclick="validateForm()">Guardar</button>
+            </div>
           </div>
-        </header>
-        <div class="card__descripcion">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure impedit consectetur facilis debitis
-          reprehenderit omnis. Cupiditate incidunt officiis dicta
-        </div>
+        </form>
       </div>
-    </article>
-    <article class="card">
-      <div class="card__img">
-        <img src="assets/img/card__example__eddie.jpg" alt="">
-      </div>
-      <div class="card__content">
-
-        <header class="card__title">
-          <h1>
-            Carro Deportivo
-          </h1>
-          <div class="card__precio">
-            50.000.000$
-          </div>
-        </header>
-        <div class="card__descripcion">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure impedit consectetur facilis debitis
-          reprehenderit omnis. Cupiditate incidunt officiis dicta
-        </div>
-      </div>
-    </article>
-    <article class="card">
-      <div class="card__img">
-        <img src="assets/img/card__example__eddie.jpg" alt="">
-      </div>
-      <div class="card__content">
-
-        <header class="card__title">
-          <h1>
-            Carro Deportivo
-          </h1>
-          <div class="card__precio">
-            50.000.000$
-          </div>
-        </header>
-        <div class="card__descripcion">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure impedit consectetur facilis debitis
-          reprehenderit omnis. Cupiditate incidunt officiis dicta
-        </div>
-      </div>
-    </article>
-    <article class="card">
-      <div class="card__img">
-        <img src="assets/img/card__example__eddie.jpg" alt="">
-      </div>
-      <div class="card__content">
-
-        <header class="card__title">
-          <h1>
-            Carro Deportivo
-          </h1>
-          <div class="card__precio">
-            50.000.000$
-          </div>
-        </header>
-        <div class="card__descripcion">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure impedit consectetur facilis debitis
-          reprehenderit omnis. Cupiditate incidunt officiis dicta
-        </div>
-      </div>
-    </article>
-    <article class="card">
-      <div class="card__img">
-        <img src="assets/img/card__example__eddie.jpg" alt="">
-      </div>
-      <div class="card__content">
-
-        <header class="card__title">
-          <h1>
-            Carro Deportivo
-          </h1>
-          <div class="card__precio">
-            50.000.000$
-          </div>
-        </header>
-        <div class="card__descripcion">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure impedit consectetur facilis debitis
-          reprehenderit omnis. Cupiditate incidunt officiis dicta
-        </div>
-      </div>
-    </article>
-    <article class="card">
-      <div class="card__img">
-        <img src="assets/img/card__example__eddie.jpg" alt="">
-      </div>
-      <div class="card__content">
-
-        <header class="card__title">
-          <h1>
-            Carro Deportivo
-          </h1>
-          <div class="card__precio">
-            50.000.000$
-          </div>
-        </header>
-        <div class="card__descripcion">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure impedit consectetur facilis debitis
-          reprehenderit omnis. Cupiditate incidunt officiis dicta
-        </div>
-      </div>
-    </article>
-
+    </div>
   </main>
   <footer>
     <!-- place footer here -->
   </footer>
+
+  <script src="/javascript/code.js"></script>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

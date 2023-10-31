@@ -36,10 +36,50 @@ body {
 
 /* estilos contenido */
 
-#contenido {
+/* #contenido {
   border: 1px solid red;
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+} */
+
+
+
+#container-data{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 1em;
+margin-left: 1em;
 }
+
+#card-data{
+margin-bottom: 10px;
+}
+/* Estilos formulario  */
+
+#container-form{
+  margin-top: 1em;
+  margin-left: 5px;
+}
+
+#title-form{
+  text-align: center;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+
+#btn-save{
+  margin-top: 10px;
+}
+
+#btn{
+  width: 100%;
+}
+
+
+
+
