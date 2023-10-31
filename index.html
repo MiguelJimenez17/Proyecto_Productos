@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Proyecto Productos</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+  <link rel="shortcut icon" href="/assets/icons8-product-16.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/styles/style.css" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Targeta - Diseño</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/stylesCards.css">
+  <link rel="stylesheet" href="assets/css/css_main.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container">
+        <div id="cont-title">
+          <h1 id="title">Proyecto Productos</h1>
+        </div>
+        <div id="menu">
+          <ul id="items-menu">
+            <li>Inicio</li>
+            <li>Contacto</li>
+            <li>Salir</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container-fluid" id="contenido">
+    <div class="row">
+      <div id="container-data" class="col-md-8">
+        
+      </div>
+      <div id="container-form" class="col-md-3">
+        <form action="" class="card" >
+          <h2 id="title-form">Agregar nuevo producto</h2>
+          <div class="card-body" id="form-product">
+            <div class="form-group">
+              <input type="file" name="imagen" class="form-control" id="image_pro">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="nombre del producto" class="form-control" id="nombre_pro">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Precio" class="form-control" id="precio_pro">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="descripcion" class="form-control" id="descripcion_pro">
+            </div>
+            <div id="btn-save">
+              <button type="submit" class="btn btn-success" id="btn" onclick="validateForm()">Guardar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+
+  <script src="/javascript/code.js"></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
